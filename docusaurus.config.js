@@ -6,6 +6,16 @@
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
+module.exports = {
+  themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+  },
+};
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
