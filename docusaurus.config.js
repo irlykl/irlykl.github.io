@@ -22,7 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'irlykl', // Usually your GitHub org/user name.
   projectName: 'irlykl.github.io', // Usually your repo name.
-  deploymentBranch: '',
+  deploymentBranch: 'main',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
